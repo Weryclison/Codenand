@@ -1,3 +1,6 @@
+.diferenciais {
+  margin-bottom: 100px;
+}
 .diferenciais-caixa-bg {
   background-color: var(--azul-5);
   box-sizing: border-box;
@@ -26,7 +29,10 @@
 .diferenciais-conteudo h4 {
   margin-bottom: 12px;
 }
-@media (max-width: 750px) {
+@media (max-width: 850px) {
+  .diferenciais {
+    margin-bottom: 60px;
+  }
   .diferenciais-caixa-bg {
     margin-bottom: 40px;
   }
