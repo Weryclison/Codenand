@@ -1,0 +1,32 @@
+.inicio {
+  text-align: center;
+}
+.inicio h1 {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.inicio-botoes .botao-2 {
+  display: flex;
+  width: max-content;
+  gap: 10px;
+}
+.inicio-botoes {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+@media (max-width: 750px) {
+  .inicio h1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .inicio-botoes {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .inicio-botoes .botao {
+    display: none;
+  }
+}

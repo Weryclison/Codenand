@@ -10,6 +10,10 @@
 }
 #menu a {
   display: block;
+  transition: color 0.3s;
+}
+#menu a:hover {
+  color: var(--cinza-5);
 }
 #btn-mobile {
   display: none;
@@ -61,6 +65,7 @@
   #menu li:first-child {
     margin-top: 140px;
   }
+
   #nav.active #menu {
     height: calc(100vh - 100px);
     visibility: visible;
@@ -75,19 +80,19 @@
   }
   #hamburguer {
     display: block;
-    border-top: 2px solid black;
-    width: 20px;
+    border-top: 4px solid var(--azul-5);
+    width: 30px;
     z-index: 9999;
   }
   #hamburguer::after,
   #hamburguer::before {
     content: "";
-    width: 20px;
-    height: 2px;
+    width: 30px;
+    height: 4px;
     background-color: currentColor;
     display: block;
     transition: 0.3s;
-    margin-top: 3px;
+    margin-top: 5px;
     position: relative;
   }
   #nav.active #hamburguer {
@@ -98,6 +103,6 @@
   }
   #nav.active #hamburguer::after {
     transform: rotate(-135deg);
-    top: -5px;
+    top: -8px;
   }
 }
