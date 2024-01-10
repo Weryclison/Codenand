@@ -1,0 +1,22 @@
+.comeco {
+  text-align: center;
+}
+.comeco p:first-of-type {
+  margin-top: 100px;
+  margin-bottom: 12px;
+}
+.comeco h1 {
+  margin-bottom: 20px;
+}
+.comeco p:last-of-type {
+  margin-bottom: 100px;
+}
+@media (max-width: 750px) {
+  .comeco p:first-of-type {
+    margin-top: 50px;
+    margin-bottom: 12px;
+  }
+  .comeco p:last-of-type {
+    margin-bottom: 50px;
+  }
+}

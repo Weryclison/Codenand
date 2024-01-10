@@ -1,0 +1,18 @@
+.p-contato {
+  margin-bottom: 0px !important;
+}
+.contato .footer-redes {
+  padding-bottom: 50px;
+}
+.contato h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contato .rodape {
+  text-align: center;
+  padding: 10px 0px;
+  background-color: var(--azul-5);
+}
+.contato .whats {
+  margin: 40px 20px !important;
+}

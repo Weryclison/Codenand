@@ -4,7 +4,16 @@
 @import url(./css/menu-mobile.css);
 @import url(./css/footer.css);
 
+/* home */
 @import url(./css/inicio.css);
 @import url(./css/diferenciais.css);
 @import url(./css/cases.css);
 @import url(./css/opiniao.css);
+
+@import url(./css/começo-geral.css);
+
+/* sobre */
+@import url(./css/sobre.css);
+
+/* contato */
+@import url(./css/contato.css);

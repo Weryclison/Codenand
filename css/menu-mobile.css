@@ -67,7 +67,7 @@
   }
 
   #nav.active #menu {
-    height: calc(100vh - 100px);
+    height: 100vh;
     visibility: visible;
   }
   #btn-mobile {
