@@ -2,7 +2,7 @@
   text-align: center;
 }
 .inicio h1 {
-  margin-top: 100px;
+  padding-top: 170px;
   margin-bottom: 40px;
 }
 .inicio-botoes .botao-2 {
@@ -19,6 +19,7 @@
 }
 @media (max-width: 750px) {
   .inicio h1 {
+    padding-top: 0px;
     margin-top: 50px;
     margin-bottom: 20px;
   }

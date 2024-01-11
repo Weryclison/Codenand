@@ -1,8 +1,14 @@
 #header {
   display: flex;
   align-items: center;
-  margin-top: 12px;
+  padding-top: 12px;
   justify-content: space-between;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--cinza-5);
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  background-color: var(--cinza-1);
 }
 #menu {
   display: flex;
@@ -39,6 +45,9 @@
 }
 
 @media (max-width: 850px) {
+  #header {
+    position: initial;
+  }
   #btn-mobile {
     display: block;
   }

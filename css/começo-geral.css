@@ -2,7 +2,7 @@
   text-align: center;
 }
 .comeco p:first-of-type {
-  margin-top: 100px;
+  padding-top: 170px;
   margin-bottom: 12px;
 }
 .comeco h1 {
@@ -11,8 +11,14 @@
 .comeco p:last-of-type {
   margin-bottom: 100px;
 }
+@media (max-width: 850px) {
+  .comeco p:first-of-type {
+    padding-top: 50px;
+  }
+}
 @media (max-width: 750px) {
   .comeco p:first-of-type {
+    padding-top: 0px;
     margin-top: 50px;
     margin-bottom: 12px;
   }
