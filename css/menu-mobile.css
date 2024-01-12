@@ -1,14 +1,16 @@
 #header {
-  display: flex;
-  align-items: center;
   padding-top: 12px;
-  justify-content: space-between;
   padding-bottom: 12px;
   border-bottom: 1px solid var(--cinza-5);
   position: fixed;
   width: 100%;
   z-index: 99999;
   background-color: var(--cinza-1);
+}
+.flex-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 #menu {
   display: flex;
